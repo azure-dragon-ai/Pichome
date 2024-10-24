@@ -70,7 +70,7 @@ $filesock_items = array('fsockopen', 'pfsockopen', 'stream_socket_client');
 $env_items = array
 (
 	'os' => array('c' => 'PHP_OS', 'r' => 'notset','b' => 'Linux'),
-	'php' => array('c' => 'PHP_VERSION', 'r' => '7+', 'm'=>'8.0', 'b' => 'php7.4'),
+	'php' => array('c' => 'PHP_VERSION', 'r' => '7+', 'm'=>'8.2', 'b' => 'php7.4'),
 	'gdversion' => array('r' => '1.0', 'b' => '2.0'),
 	'diskspace' => array('r' => '10G', 'b' => '40G以上'),
 	
