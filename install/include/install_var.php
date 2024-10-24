@@ -62,6 +62,7 @@ define('UNDEFINE_FUNC', 32);
 define('MISSING_PARAMETER', 33);
 define('LOCK_FILE_NOT_TOUCH', 34);
 define('TIMESTAMP', time());
+define('LICENSE_VERSION', "2.1.0");
 
 if(function_exists('mysqli_connect')) $func_items = array('mysqli_connect',  'xml_parser_create', 'curl_init');
 else $func_items = array('mysql_connect',  'xml_parser_create', 'curl_init');
